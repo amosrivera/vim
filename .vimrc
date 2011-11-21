@@ -26,6 +26,9 @@ set backup
 " remove toolbar
 set guioptions-=T  
 
+" remove menu bar
+" set guioptions-=m  
+
 " set working dir to the current file
 set autochdir
 
@@ -61,10 +64,10 @@ imap <c-z> <c-o>u
 
 " browser-like tab navigation 
 nmap <C-S-tab> :tabprevious<CR>
-nmap <C-tab> :tabnext<CR>
-map <C-S-tab> :tabprevious<CR>
-map <C-tab> :tabnext<CR>
 imap <C-S-tab> <Esc>:tabprevious<CR>i
+map <C-S-tab> :tabprevious<CR>
+nmap <C-tab> :tabnext<CR>
+map <C-tab> :tabnext<CR>
 imap <C-tab> <Esc>:tabnext<CR>i
 nmap <C-t> :tabnew<CR>
 imap <C-t> <Esc>:tabnew<CR>
@@ -86,4 +89,3 @@ au VimResized * exe "normal! \<c-w>="
 inoremap <C-P> <ESC>:call PhpDocSingle()<CR>i 
 nnoremap <C-P> :call PhpDocSingle()<CR> 
 vnoremap <C-P> :call PhpDocRange()<CR> 
-

@@ -4,3 +4,6 @@
 [submodule "/home/amosrivera/.vim/bundle/phpdoc"]
 	path = /home/amosrivera/.vim/bundle/phpdoc
 	url = git://github.com/vim-scripts/PDV--phpDocumentor-for-Vim.git
+[submodule "/home/amosrivera/.vim/bundle/nerdtree"]
+	path = /home/amosrivera/.vim/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git

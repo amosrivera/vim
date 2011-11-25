@@ -1,3 +1,6 @@
 [submodule "/home/amosrivera/.vim/bundle/fugitive"]
 	path = /home/amosrivera/.vim/bundle/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+[submodule "/home/amosrivera/.vim/bundle/phpdoc"]
+	path = /home/amosrivera/.vim/bundle/phpdoc
+	url = git://github.com/vim-scripts/PDV--phpDocumentor-for-Vim.git

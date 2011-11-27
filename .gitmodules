@@ -10,3 +10,9 @@
 [submodule "/home/amosrivera/.vim/bundle/tabular"]
 	path = /home/amosrivera/.vim/bundle/tabular
 	url = git://github.com/godlygeek/tabular.git
+[submodule "/home/amosrivera/.vim/bundle/css-colors"]
+	path = /home/amosrivera/.vim/bundle/css-colors
+	url = git://github.com/skammer/vim-css-color.git
+[submodule "/home/amosrivera/.vim/bundle/zencoding"]
+	path = /home/amosrivera/.vim/bundle/zencoding
+	url = git://github.com/mattn/zencoding-vim.git

@@ -16,3 +16,6 @@
 [submodule "/home/amosrivera/.vim/bundle/zencoding"]
 	path = /home/amosrivera/.vim/bundle/zencoding
 	url = git://github.com/mattn/zencoding-vim.git
+[submodule "/home/amosrivera/.vim/bundle/solarized"]
+	path = /home/amosrivera/.vim/bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git

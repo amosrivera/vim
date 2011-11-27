@@ -7,3 +7,6 @@
 [submodule "/home/amosrivera/.vim/bundle/nerdtree"]
 	path = /home/amosrivera/.vim/bundle/nerdtree
 	url = git://github.com/scrooloose/nerdtree.git
+[submodule "/home/amosrivera/.vim/bundle/tabular"]
+	path = /home/amosrivera/.vim/bundle/tabular
+	url = git://github.com/godlygeek/tabular.git

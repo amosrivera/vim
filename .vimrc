@@ -7,6 +7,9 @@ set encoding=utf-8
 set smartindent
 set autoindent
 
+" show cursor at all times
+set ruler 
+
 " width of the tab
 set tabstop=4
 
@@ -67,6 +70,9 @@ set laststatus=2
 " Hide the mouse pointer while typing
 set mousehide
 
+" turn on syntax highlighting
+syntax on 
+
 " makes ; to : so tu run a command just ;w - faster
 nnoremap ; :
 
@@ -77,11 +83,13 @@ let mapleader=","
 nmap <silent> <leader>ev :e $MYVIMRC<CR>
 nmap <silent> <leader>sv :so $MYVIMRC<CR>
 
-" theme
-" colorscheme cloudsmidnight
-" colorscheme dusk
-" colorscheme mustang
-colorscheme molokai
+" theme and colors
+set background=dark
+if has('gui_running') " if in gvim
+	colorscheme solarized
+else
+	colorscheme torte
+endif
 
 " undo in insert mode.
 imap <c-z> <c-o>u
@@ -116,7 +124,5 @@ vnoremap <C-P> :call PhpDocRange()<CR>
 " call pathogen plug in
 " https://github.com/tpope/vim-pathogen 
 call pathogen#infect()
-syntax on " turn on syntax highlighting
 filetype plugin indent on  
-
 

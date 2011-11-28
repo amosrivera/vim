@@ -28,3 +28,6 @@
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/easy-motion"]
+	path = bundle/easy-motion
+	url = https://github.com/Lokaltog/vim-easymotion.git

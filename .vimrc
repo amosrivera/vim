@@ -70,6 +70,9 @@ set laststatus=2
 " Hide the mouse pointer while typing
 set mousehide
 
+"Split windows below the current window.  
+set splitbelow
+
 " turn on syntax highlighting
 syntax on 
 
@@ -78,6 +81,10 @@ nnoremap ; :
 
 " change the map leader from \ to ,
 let mapleader=","
+
+"Ever notice a slight lag after typing the leader key + command? This lowers  
+"the timeout.  
+set timeoutlen=500
 
 " quickly edit/reload vimrc
 nmap <silent> <leader>ev :e $MYVIMRC<CR>

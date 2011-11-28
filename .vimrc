@@ -1,6 +1,5 @@
 " .vimrc
 " Author: @amosrivera
-" 
 
 set encoding=utf-8
 
@@ -127,18 +126,8 @@ vnoremap <C-P> :call PhpDocRange()<CR>
 call pathogen#infect()
 filetype plugin indent on  
 
-" Tabularize plug in goodness
-" allows to type ,a and the delimeter to align
-" http://vimcasts.org/episodes/aligning-text-with-tabular-vim/
-if exists(":Tabularize")
-  nmap <Leader>a= :Tabularize /=<CR>
-  vmap <Leader>a= :Tabularize /=<CR>
-  nmap <Leader>a: :Tabularize /:\zs<CR>
-  vmap <Leader>a: :Tabularize /:\zs<CR>
-endif
-
-" function to align the characters every time
-" the delimiter is typed
+" tabularize plug in goodness
+" function to align the characters every time the delimiter is typed
 " https://gist.github.com/287147
 inoremap <silent> <Bar>   <Bar><Esc>:call <SID>align()<CR>a
  
@@ -152,3 +141,10 @@ function! s:align()
     call search(repeat('[^|]*|',column).'\s\{-\}'.repeat('.',position),'ce',line('.'))
   endif
 endfunction
+
+" nerdtree plugin mappings 
+" closes upon file selection
+nnoremap <Leader>d :let NERDTreeQuitOnOpen = 1<bar>NERDTreeToggle<CR>
+
+" persistent 
+nnoremap <Leader>D :let NERDTreeQuitOnOpen = 0<bar>NERDTreeToggle<CR>

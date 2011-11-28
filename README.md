@@ -1,3 +1,4 @@
+<pre>
 .vim
 |-- autoload
 |   `-- pathogen.vim
@@ -19,4 +20,4 @@
 		    `-- undo
 
 14 directories, 4 files
-
+</pre>

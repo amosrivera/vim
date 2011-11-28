@@ -15,9 +15,9 @@
 |   `-- solarized.vim
 |-- README.md
 `-- tmp
-    |-- backup
-	    |-- swap
-		    `-- undo
+ 	|-- backup
+ 	|-- swap
+	`-- undo
 
 14 directories, 4 files
 </pre>

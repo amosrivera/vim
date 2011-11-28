@@ -1,11 +1,11 @@
 ##Install
 
-<p>`git clone https://amosrivera@github.com/amosrivera/vim.git ~/.vim`</p>
-<p>`ln -s ~/.vim/.vimrc ~/`</p>
+`git clone https://amosrivera@github.com/amosrivera/vim.git ~/.vim`<br />
+`ln -s ~/.vim/.vimrc ~/`<br />
 
-<p>`cd ~/.vim`</p>
-<p>`git submodule init`</p>
-<p>`git submodule update`</p>
+`cd ~/.vim`<br />
+`git submodule init`<br />
+`git submodule update`<br />
 
 ##Directory tree
 

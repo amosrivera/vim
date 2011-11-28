@@ -1,21 +1,18 @@
-[submodule "/home/amosrivera/.vim/bundle/fugitive"]
-	path = /home/amosrivera/.vim/bundle/fugitive
-	url = git://github.com/tpope/vim-fugitive.git
-[submodule "/home/amosrivera/.vim/bundle/phpdoc"]
-	path = /home/amosrivera/.vim/bundle/phpdoc
-	url = git://github.com/vim-scripts/PDV--phpDocumentor-for-Vim.git
-[submodule "/home/amosrivera/.vim/bundle/nerdtree"]
-	path = /home/amosrivera/.vim/bundle/nerdtree
-	url = git://github.com/scrooloose/nerdtree.git
-[submodule "/home/amosrivera/.vim/bundle/tabular"]
-	path = /home/amosrivera/.vim/bundle/tabular
-	url = git://github.com/godlygeek/tabular.git
-[submodule "/home/amosrivera/.vim/bundle/css-colors"]
-	path = /home/amosrivera/.vim/bundle/css-colors
-	url = git://github.com/skammer/vim-css-color.git
-[submodule "/home/amosrivera/.vim/bundle/zencoding"]
-	path = /home/amosrivera/.vim/bundle/zencoding
-	url = git://github.com/mattn/zencoding-vim.git
-[submodule "/home/amosrivera/.vim/bundle/solarized"]
-	path = /home/amosrivera/.vim/bundle/solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/css-colors"]
+	path = bundle/css-colors
+	url = https://github.com/skammer/vim-css-color.git
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/php-doc"]
+	path = bundle/php-doc
+	url = https://github.com/vim-scripts/PDV--phpDocumentor-for-Vim.git
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/zencoding"]
+	path = bundle/zencoding
+	url = https://github.com/mattn/zencoding-vim.git

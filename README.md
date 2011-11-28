@@ -16,7 +16,11 @@ git submodule update
 │   └── pathogen.vim
 ├── bundle
 │   ├── css-colors
+│   ├── delimitmate
+│   ├── easy-motion
 │   ├── fugitive
+│   ├── haml
+│   ├── nerdcommenter
 │   ├── nerdtree
 │   ├── php-doc
 │   ├── tabular

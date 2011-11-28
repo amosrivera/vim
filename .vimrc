@@ -88,7 +88,7 @@ set background=dark
 if has('gui_running') " if in gvim
 	colorscheme solarized
 else
-	colorscheme torte
+	colorscheme desert
 endif
 
 " undo in insert mode.

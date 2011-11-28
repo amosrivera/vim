@@ -125,4 +125,3 @@ vnoremap <C-P> :call PhpDocRange()<CR>
 " https://github.com/tpope/vim-pathogen 
 call pathogen#infect()
 filetype plugin indent on  
-

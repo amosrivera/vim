@@ -1,5 +1,6 @@
 " .vimrc
 " Author: @amosrivera
+" 
 
 set encoding=utf-8
 

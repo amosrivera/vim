@@ -54,7 +54,7 @@ set backspace=indent,eol,start
 set showcmd
 
 " limit line length for more readability
-set textwidth=85
+set textwidth=100
 
 " after typing a bracket show match
 set showmatch
@@ -93,7 +93,7 @@ nmap <silent> <leader>sv :so $MYVIMRC<CR>
 " theme and colors
 set background=dark
 if has('gui_running') " if in gvim
-	colorscheme solarized
+	colorscheme molokai
 else
 	colorscheme desert
 endif

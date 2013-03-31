@@ -1,12 +1,6 @@
 ##Install
-
 <pre>
-git clone https://amosrivera@github.com/amosrivera/vim.git ~/.vim
-ln -s ~/.vim/.vimrc ~/
-
-cd ~/.vim
-git submodule init
-git submodule update
+wget https://raw.github.com/amosrivera/vim/master/install.sh | sh
 </pre>
 
 ##Directory tree

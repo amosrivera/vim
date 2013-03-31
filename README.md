@@ -1,6 +1,7 @@
 ##Install
 <pre>
-wget https://raw.github.com/amosrivera/vim/master/install.sh | sh
+wget --no-check-certificate https://raw.github.com/amosrivera/vim/master/install.sh -O
+- | sh
 </pre>
 
 ##Directory tree

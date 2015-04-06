@@ -28,3 +28,5 @@ wget --no-check-certificate https://raw.github.com/amosrivera/vim/master/install
 	├── swap
 	└── undo
 </pre>
+
+
